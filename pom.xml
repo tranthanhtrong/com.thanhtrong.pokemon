@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.thanhtrong</groupId>
     <artifactId>pokemon</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <name>Tran Thanh Trong</name>
     <description>Spring Boot Application bundle with ReactJs</description>
@@ -41,7 +41,7 @@
         <connection>scm:git:git://github.com/tranthanhtrong/com.thanhtrong.pokemon.git</connection>
         <developerConnection>scm:git:git@github.com:tranthanhtrong/com.thanhtrong.pokemon.git</developerConnection>
         <url>https://github.com/tranthanhtrong/com.thanhtrong.pokemon</url>
-        <tag>pokemon-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
