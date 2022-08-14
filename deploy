@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Deploying process has been started!"
+mvn clean install
+mvn release:prepare
+mvn release:perform
