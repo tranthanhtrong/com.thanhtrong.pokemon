@@ -1,0 +1,2 @@
+#!/bin/bash
+java -jar "$(find /Users/trong/Desktop/com.thanhtrong.pokemon/target/ -name \*SNAPSHOT.jar)"

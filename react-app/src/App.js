@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import axios from "axios"
 
+const fetchData = () => {
+    return axios.get("/")
+        .then((response) => console.log(response.data));
+}
 function App() {
   return (
     <div className="App">
@@ -14,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+          <p onClick={fetchData}>Get</p>
       </header>
     </div>
   );
