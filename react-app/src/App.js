@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import axios from "axios"
+import { Button } from 'antd';
+import 'antd/dist/antd.css';
 
 const fetchData = () => {
     return axios.get("/")
@@ -19,7 +21,7 @@ function App() {
         >
           Learn React
         </a>
-          <p onClick={fetchData}>Get</p>
+          <Button type="primary" onClick={fetchData}>Button</Button>
       </header>
     </div>
   );
